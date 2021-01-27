@@ -16,11 +16,11 @@
 		</style>
 	</head>
 	<body>
-		<h1></h1>
+		<h1 id="text"></h1>
 		<script>
-			const SENTENCES = ['lorem', 'ipsum', 'dolor', 'sit', 'amet'];
-			let index = Math.floor(Math.random() * SENTENCES.length);
-			h1.innerHTML = SENTENCES[index];
+			const TEXT = ['lorem', 'ipsum', 'dolor', 'sit', 'amet'];
+			let index = Math.floor(Math.random() * TEXT.length);
+			document.querySelector('#text').innerHTML = TEXT[index];
 		</script>
 	</body>
 </html>
